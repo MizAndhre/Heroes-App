@@ -32,7 +32,7 @@ export const SearchScreen = () => {
             <form
                onSubmit={handleSubmit}
                className='row animate__animated animate__fadeIn'>
-               <div className='col-9'>
+               <div className='col-12 col-sm-9'>
                   <input
                      autoComplete='off'
                      type='text'
@@ -44,7 +44,7 @@ export const SearchScreen = () => {
                   />
                </div>
 
-               <div className='col-3'>
+               <div className='col-12 col-sm-3'>
                   <button
                      type='submit'
                      className='btn mt-3 mt-sm-0 w-100 btn-outline-warning'>
