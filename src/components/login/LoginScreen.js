@@ -28,7 +28,7 @@ export const LoginScreen = () => {
 
    return (
       <div className='container mt-5'>
-         <h1 className='fw-bolder'>Login Screen</h1>
+         <h1 className='fw-bolder'>Login</h1>
          <hr />
          <form onSubmit={handleLogin}>
             <input
